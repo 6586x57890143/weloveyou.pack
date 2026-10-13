@@ -29,7 +29,7 @@ import tomllib
 import urllib.parse
 import urllib.request
 
-UA = "6586x57890143/weloveyou-pack (pack-site.py)"
+UA = "6586x57890143/weloveyou.pack (pack-site.py)"
 API = "https://api.modrinth.com/v2/projects?ids="
 
 # Same tokens as the benchmark site. Copied rather than imported: the two pages
@@ -262,7 +262,7 @@ def render(pack, mods, meta, channel, outdir, base_url):
 
         '<footer>Built by <code>packwiz</code>, published to Cloudflare Pages, with '
         '<span class="hb">&#128150;</span>, from '
-        '<a href="https://github.com/6586x57890143/weloveyou-pack">weloveyou-pack</a>.<br>'
+        '<a href="https://github.com/6586x57890143/weloveyou.pack">weloveyou.pack</a>.<br>'
         "Names, blurbs and icons are Modrinth's, fetched when this page was built.</footer>",
         "</main>",
     ]
@@ -304,7 +304,7 @@ def root(site):
            else '<p class="empty">No channel has been published yet.</p>')
         + '<footer>Published by the release workflow, with '
         '<span class="hb">&#128150;</span>, from '
-        '<a href="https://github.com/6586x57890143/weloveyou-pack">weloveyou-pack</a>.'
+        '<a href="https://github.com/6586x57890143/weloveyou.pack">weloveyou.pack</a>.'
         '</footer></main>')
     out = site / "index.html"
     out.write_text(

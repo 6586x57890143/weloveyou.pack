@@ -4,7 +4,7 @@ Guidance for Claude Code (claude.ai/code) working in this repository.
 
 ## What this is 💖
 
-`weloveyou-pack` is the modpack itself, plus the Prism Launcher instance templates that
+`weloveyou.pack` is the modpack itself, plus the Prism Launcher instance templates that
 deliver it. Fabric, packwiz-managed, published to Cloudflare Pages.
 
 The platform that runs the server and the Discord bot lives in a separate repository,
@@ -163,7 +163,7 @@ version error. `scripts/instance-build.py` refuses to build on a mismatch.
   `docker-desktop` entry in `wsl -l` is Docker's own utility VM, not one you can use. Git
   Bash is also where `packwiz` is on the PATH. To launch it from PowerShell, call it by
   full path:
-  `& "C:\Program Files\Git\bin\bash.exe" -lc "cd /c/files/sdb/weloveyou-pack && scripts/pack-dev.sh play"`
+  `& "C:\Program Files\Git\bin\bash.exe" -lc "cd /c/files/sdb/active/weloveyou.pack && scripts/pack-dev.sh play"`
   A real WSL distro would still need packwiz installed *inside* it: `packwiz serve` would
   bind WSL's network while the container resolves `host.docker.internal` to the Windows
   host, and the two would never meet.
