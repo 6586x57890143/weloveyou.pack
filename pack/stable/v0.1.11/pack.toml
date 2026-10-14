@@ -1,0 +1,13 @@
+name = "weloveyou"
+author = "heavywinds"
+version = "0.1.11"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8cd926a174cdd7b2cca44aa33116a1558be8689775bdda943293047a5875befa"
+
+[versions]
+fabric = "0.19.3"
+minecraft = "1.21.1"
