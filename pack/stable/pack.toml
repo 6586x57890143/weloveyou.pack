@@ -1,12 +1,12 @@
 name = "weloveyou"
 author = "heavywinds"
-version = "0.1.9"
+version = "0.1.10"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "637286944fcaa81f031f87bfa7ac897585f05271d52b70477575c9139a36e2c3"
+hash = "1cf7b3064612cc5e0a7b2237ad207d2ac6ee3471d9c27d9bb20aa9feb20ad374"
 
 [versions]
 fabric = "0.19.3"
