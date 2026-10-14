@@ -56,6 +56,11 @@ hash = "1e4faa76a8e5471099a6e33406679d00c0276c571890b6cfa4b8f5605fa6ab74"
 metafile = true
 
 [[files]]
+file = "mods/bl4cks-sit.pw.toml"
+hash = "b698ef315db976c1f3dea7a1a65fe9b41e6b5f7b84e59e3bd79a25185094ef32"
+metafile = true
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "742112e9a70435126ef930bad4bbd9d9e036f8f4fe681b08ad470d1b3209f9b8"
 metafile = true
@@ -96,8 +101,18 @@ hash = "8cd1bcb8bd326f6a659d28ca8c0795febc84fbc79eec8ef2b85ee15344f30302"
 metafile = true
 
 [[files]]
+file = "mods/emi.pw.toml"
+hash = "bfc939958a6d23a40f8c706cc1b895c6be3de1972dfd958a3b40406d0b34fef7"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "f23a0d6d48cc27e24e8c4cacf9231fe146f82e9ff27c90b2fd96e1de4482e765"
+metafile = true
+
+[[files]]
+file = "mods/explorations.pw.toml"
+hash = "f3ecc1938cb16cea774827a2fb59322193656fc223f48713d39527315ddeb712"
 metafile = true
 
 [[files]]
@@ -171,13 +186,28 @@ hash = "e7ff198d3548b5944eb78563a0b6a4ceaff11cce9f5570362ec35bfe96370e8e"
 metafile = true
 
 [[files]]
+file = "mods/immersive-weather-renewed.pw.toml"
+hash = "d8ddb02d5c6d8bd090001a0b0d72d597cd6dde3068438366eea719327f3fbe14"
+metafile = true
+
+[[files]]
 file = "mods/incendium.pw.toml"
 hash = "9b70cf99195f0ffdd3c078bf7ffae26c5dd9fe8aee89179b6c93a8fa762c17a2"
 metafile = true
 
 [[files]]
+file = "mods/inventory-management.pw.toml"
+hash = "40b85465f985bcb300b89018271103db50340ac99949502fc3ff64fb50bcbbae"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "6ee94689dd67f0210e07feafac8140e8968bcbcd67defcfbdcd677cf78943900"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "de03099c26c551cb7e9b6bb1c4e2f32cb4cb1243cbe315bc3d6b17a3e9dfef8b"
 metafile = true
 
 [[files]]
@@ -221,6 +251,16 @@ hash = "4a33f888af603e0859359f44b068854e4148d4fba35ee0818bb977171236a805"
 metafile = true
 
 [[files]]
+file = "mods/moonlight.pw.toml"
+hash = "4f7d256a29e93b1620275b39f340d0819de92b744f35b0e53a3dbeb587b9d9bf"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "7fc969e77edc3b0b9946b42070fd858349a74555f0cf9648907241af8a3a2d25"
+metafile = true
+
+[[files]]
 file = "mods/mru.pw.toml"
 hash = "b4373d3e75e7e761737f12dde10d2b108856bd4858d3f04050eada407d164e30"
 metafile = true
@@ -241,6 +281,11 @@ hash = "18d798e11e4c98d629df7a386a5f663eaecb6cecc5012f34650ff4ab39822167"
 metafile = true
 
 [[files]]
+file = "mods/oracle-index.pw.toml"
+hash = "6a5e5bb3465bee02f9df8751b6140e4228c7b1f91dd5485033d6a142142fe494"
+metafile = true
+
+[[files]]
 file = "mods/oritech.pw.toml"
 hash = "83d541f0a57ace794e75b39b312ecd272010e368f213b9c09320bafb76ffc3ee"
 metafile = true
@@ -258,6 +303,11 @@ metafile = true
 [[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "2b8ac8de79c5561e98265a274dd19081f0de540b1cb5cd3c2151f31a9402ee13"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "8083e49b94eb72deca40e87757359cfaceef8d1f6a1a07c82f9e8bc9285eb5f2"
 metafile = true
 
 [[files]]
@@ -356,8 +406,28 @@ hash = "20da2b78b2f86710f0f72a1e7863787d6a6060d7014efb13e45f7c99ef7b0d33"
 metafile = true
 
 [[files]]
+file = "mods/wayfinder.pw.toml"
+hash = "97b0e64a7d4b3c008c6aaabbc63175a4904d38629e811707b502dce179e736df"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "af20070dd9497817a83162c17b181a0a44f7213ea302d059a81c5aed02d0c877"
+metafile = true
+
+[[files]]
+file = "mods/yagm.pw.toml"
+hash = "ac9c3beffae11bed604ea1ef9652e4cdd76671c3d391804228904ed8d41049b3"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "b30757f7f10735b8eb53112494685bf9e5934d8df8729472f2827e1aa2197949"
+metafile = true
+
+[[files]]
+file = "mods/yungs-cave-biomes.pw.toml"
+hash = "57ae99f727e3fcd7a1abbc624bf14cafa5f092f2082dcf3edc609289efb25c15"
 metafile = true
 
 [[files]]
