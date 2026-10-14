@@ -66,6 +66,11 @@ hash = "742112e9a70435126ef930bad4bbd9d9e036f8f4fe681b08ad470d1b3209f9b8"
 metafile = true
 
 [[files]]
+file = "mods/chat-heads.pw.toml"
+hash = "5d0697933c7714e41fc1fafaaff08ddf0ad58c9c5426fb5fdb5688779582d84f"
+metafile = true
+
+[[files]]
 file = "mods/chunks-fade-in.pw.toml"
 hash = "3d37df2885a4f4e65bf5f2fb3e88dd851000b628b07191b4e4e688d1df9e6bc1"
 metafile = true
