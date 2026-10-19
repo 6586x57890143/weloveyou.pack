@@ -13,6 +13,13 @@
 # leave them empty when that is true.
 
 [[release]]
+version = "0.1.19"
+summary = "sorry, 0.1.18 crashed on the title screen. this fixes it. the wly title screen stays, it just does not need a mod anymore."
+removed = [
+    "vistas, whose only build for our minecraft version crashed the title screen",
+]
+
+[[release]]
 version = "0.1.18"
 summary = "everything you wear or swing lasts twice as long now, tools and armour alike, modded gear included. the longer early game should not mean more time at the crafting table. also the screenshot viewer looks right again."
 added = [

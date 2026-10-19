@@ -9,10 +9,6 @@ file = "config/fancymenu/assets/wly/icon_32.png"
 hash = "f858f208409397ec52849791b35b1ff42f79370dea9211e0f0ee0c09907a4f8c"
 
 [[files]]
-file = "config/vistas.json"
-hash = "a86beba30e39e428a3a796e68c1d1eab608cd1ccedc7c9aeb5413c741f788c61"
-
-[[files]]
 file = "global_packs/required_data/wly/data/minecraft/advancement/story/upgrade_tools.json"
 hash = "32d14520449bf8f3a547e13279d528dcda3cfd79e095bc284c51508348e19e31"
 
@@ -49,6 +45,10 @@ file = "global_packs/required_data/wly/pack.mcmeta"
 hash = "0b5bd8427f547d9c18b5ccc457be116b0d006ac4e6eb27bb84260999752d7878"
 
 [[files]]
+file = "global_packs/required_resources/wly/assets/minecraft/texts/splashes.txt"
+hash = "7b9a212f883bb7f68b0b66438f393ce4890c6f49e355b0f53dcd7b9e8ee8a30c"
+
+[[files]]
 file = "global_packs/required_resources/wly/assets/minecraft/textures/gui/sprites/widget/button.png"
 hash = "cc622dbf87171faee139742a876cde5f4d1258f7f8bbbc969553cddae4918b58"
 
@@ -73,15 +73,11 @@ file = "global_packs/required_resources/wly/assets/minecraft/textures/gui/sprite
 hash = "53b3eefb4b73b43cce04b834dd7b0b7cbcf912efdd2f3e2d1a2ec2eef385c68d"
 
 [[files]]
-file = "global_packs/required_resources/wly/assets/wly/panoramas.json"
-hash = "54f3ef8c5d447d4cf2929dfc11ff413bd014895efb9981ba7578cf5ceb53c9ab"
+file = "global_packs/required_resources/wly/assets/minecraft/textures/gui/title/edition.png"
+hash = "9b3aafb3483c36fd159f91577ee02916b606546c39285d8e7eef0e86ed7c33d3"
 
 [[files]]
-file = "global_packs/required_resources/wly/assets/wly/texts/splashes.txt"
-hash = "7b9a212f883bb7f68b0b66438f393ce4890c6f49e355b0f53dcd7b9e8ee8a30c"
-
-[[files]]
-file = "global_packs/required_resources/wly/assets/wly/textures/gui/title/wly.png"
+file = "global_packs/required_resources/wly/assets/minecraft/textures/gui/title/minecraft.png"
 hash = "18aa46a534cd18afeb993eabd68f171ba7301a18aceb73f7ac9d5236112727c4"
 
 [[files]]
@@ -537,11 +533,6 @@ metafile = true
 [[files]]
 file = "mods/trek.pw.toml"
 hash = "bbf8ddd14891c7797895b4adecde0ba32f008b80df8fc3b163307bce4ddf4115"
-metafile = true
-
-[[files]]
-file = "mods/vistas.pw.toml"
-hash = "20da2b78b2f86710f0f72a1e7863787d6a6060d7014efb13e45f7c99ef7b0d33"
 metafile = true
 
 [[files]]
