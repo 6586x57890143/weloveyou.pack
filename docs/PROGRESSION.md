@@ -24,6 +24,37 @@ Each system earns its place: copper fills stone-to-iron, steel rewards processin
 Magic makes enchanting a choice. Food: farming gives ingredients, cooking gives
 specialisation, automation is optional scale. Not every meal is a factory part.
 
+## The early game, expanded
+
+Raspberry Flavoured makes the early game longer. We go further: stages 1 and 2 are where the
+pack's character lives.
+
+- **The upper layers matter.** Copper, coal, iron and the surface give a reason to mine near
+  the top: copper tools, a first dwelling worth building, Farmer's Delight to feed it.
+- **Depth is danger.** The deeper you go the more it costs to be careless. Terralith and the
+  large caves already do the scary part; the world should keep feeling dangerous and fun, never
+  punishing. Not hardcore.
+- **Diamonds are a journey, not a lucky dig.** The road there is longer and more dangerous than
+  vanilla's. Worldgen datapacks can move or thin diamond ore (ore placement is data driven), so
+  the way down is earned.
+- **The Oritech goal is amethyst.** Amethyst clusters are the catch for Oritech progression,
+  which makes finding a geode a real moment. See the JourneyMap question below: a cave map
+  makes that moment cheap.
+
+**Mobs hit harder, in steps.** The server runs `difficulty=easy`, itzg's default, never chosen.
+Step one is Normal: in vanilla a hit that does 3 hearts on Normal does 2 on Easy and 4.5 on Hard.
+Then, if it still feels soft, a targeted damage boost on top (a mob attribute change in the
+small mod), measured against how the caves play, not set once and forgotten.
+
+**Open: JourneyMap.** It is client-only in the pack. The tension is mostly its cave map and
+radar, which turn exploring underground into reading a screen, while the surface map is pure
+convenience. The preferred shape: surface map in the Overworld only, no cave map, no radar, no
+map in the Nether. JourneyMap 6.x has server-side admin controls once it is installed on the
+server too (recent builds: disable the minimap, hide coordinates, cap cave render distance).
+Whether it can turn the cave map or a whole dimension off is NOT confirmed. Install it
+server-side in the dev loop (`scripts/pack-dev.sh play`) and look at its admin screen before
+deciding. If it cannot, the choice is keep it whole or drop it.
+
 ## Opinionated changes (decided, not built)
 
 Raspberry Flavoured's stance, adopted: changes are deliberate, and luck gives way to choice.
