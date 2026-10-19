@@ -1,11 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/sodium-options.json"
-hash = "2ea899b8b3edd128303b9ff9700fef036623a975a749310e3aad8857d0cd463d"
-preserve = true
-
-[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "015053563a1d8ef3334560cd27f8e832935a26a96f151f059f814092b8db50a2"
 metafile = true
