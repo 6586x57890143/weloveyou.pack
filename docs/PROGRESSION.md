@@ -14,15 +14,37 @@ skips; it does not dictate one way to play.
 
 | Stage | What it is | In the pack today | Note |
 |---|---|---|---|
-| 1 Fieldcraft | stone and copper tools, exploring, gathering, farming, first settlements | Copper Tools, Farmer's Delight, Terralith | already playable |
+| 1 Fieldcraft | copper tools (no stone), exploring, gathering, farming, first settlements | Copper Tools, Farmer's Delight, Terralith | already playable |
 | 2 Metallurgy | iron, steel, deliberate processing | Oritech, Oritech Steel Tools | steel should NEED Oritech processing, or stage 3 has no hook |
 | 3 Industrialization | power, machines, logistics, automation | Oritech power and machines | gap: no item transport mod yet |
-| 4 Specialised mastery | intentional enchanting, rare ingredients, advanced gear | Modest Magic, More Delight | magic and tech trade ingredients; neither replaces the other |
+| 4 Specialised mastery | enchanting by tablet, no levels, rare ingredients, advanced gear | Modest Magic, More Delight | magic and tech trade ingredients; neither replaces the other |
 | 5 Infrastructure | shared factories, transport, community projects | nothing | needs a population. Designed after launch, not before |
 
 Each system earns its place: copper fills stone-to-iron, steel rewards processing, Modest
 Magic makes enchanting a choice. Food: farming gives ingredients, cooking gives
 specialisation, automation is optional scale. Not every meal is a factory part.
+
+## Opinionated changes (decided, not built)
+
+Raspberry Flavoured's stance, adopted: changes are deliberate, and luck gives way to choice.
+
+**Copper replaces stone.** Stone tools are not craftable; copper tools (the Copper Tools mod,
+already in the pack) are the tier between wood and iron, as in Raspberry Flavoured. That makes
+copper worth mining from the first hour and gives stage 1 its own material. Done by datapack:
+remove the stone tool recipes, and check what else uses stone tools (loot tables, villager
+trades, mod recipes) so nothing points at an item players can no longer make.
+
+**Enchanting without experience.** Modest Magic replaces the enchanting table with an altar
+and pedestals. Items on the pedestals infuse an Enchanting Tablet, and the tablet is applied
+at a smithing table, giving each enchantment it covers at exactly level one. Its description
+names no experience cost, and its altar recipes are data driven, so the price is ingredients
+we choose. To make that the only way:
+
+- remove the vanilla enchanting table recipe, so luck and levels are out
+- decide the anvil: no book combining (tablets replace books) and whether repair costs levels
+- decide enchanted books from loot and villager trades
+- verify in game first that Modest Magic itself charges no levels, since the description is
+  the only evidence so far
 
 ## The guide: our own advancement tree
 
