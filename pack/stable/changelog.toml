@@ -13,6 +13,16 @@
 # leave them empty when that is true.
 
 [[release]]
+version = "0.1.18"
+summary = "everything you wear or swing lasts twice as long now, tools and armour alike, modded gear included. the longer early game should not mean more time at the crafting table. also the screenshot viewer looks right again."
+added = [
+    "wly tweaks, our own small mod, for the changes a datapack cannot make. today that is durability",
+]
+removed = [
+    "fancymenu, which broke the screenshot viewer. it comes back when we actually design the menu",
+]
+
+[[release]]
 version = "0.1.17"
 summary = "a quiet fix with a big effect. one mod named a steel bow that does not exist, and that broke the list of what can be enchanted, tablets included. enchanting should work properly now."
 removed = [
