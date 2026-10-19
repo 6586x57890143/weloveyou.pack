@@ -440,11 +440,6 @@ hash = "6a5e5bb3465bee02f9df8751b6140e4228c7b1f91dd5485033d6a142142fe494"
 metafile = true
 
 [[files]]
-file = "mods/oritech-steel-tools.pw.toml"
-hash = "ba3d9cb130a47060c345a4145c0115b6770dff964c23896055100f418bfc2471"
-metafile = true
-
-[[files]]
 file = "mods/oritech.pw.toml"
 hash = "83d541f0a57ace794e75b39b312ecd272010e368f213b9c09320bafb76ffc3ee"
 metafile = true
