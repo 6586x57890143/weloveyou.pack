@@ -1,0 +1,13 @@
+name = "Immersive Weathering: Renewed"
+filename = "immersive_weathering-V1.0.1-fabric-beta.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AtjxBimt/versions/pKnRpz8n/immersive_weathering-V1.0.1-fabric-beta.jar"
+hash-format = "sha512"
+hash = "6e0fe3d1a7a9304e80bf47dcbaef89bc653151934bd9ae603172cfb8fbe0f7975b484a031d1e489d17879325f4003f40e5f7a7b95e0da6a5525f80912925597f"
+
+[update]
+[update.modrinth]
+mod-id = "AtjxBimt"
+version = "pKnRpz8n"
