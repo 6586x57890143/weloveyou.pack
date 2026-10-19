@@ -32,6 +32,7 @@ instance/stable/      Prism instance template, zipped by CI
   mmc-pack.json       net.minecraft + net.fabricmc.fabric-loader components
   .minecraft/packwiz-installer.jar   pinned, hash-checked before every build
 channels.toml         where each channel publishes to
+docs/PROGRESSION.md   PLANNED: progression stages, the advancement guide, road to launch
 scripts/              CI helpers that must also run by hand
   pack-site.py        the endpoint's landing page, rendered into the rolling prefix
 ```
