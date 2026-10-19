@@ -13,6 +13,14 @@
 # leave them empty when that is true.
 
 [[release]]
+version = "0.1.15"
+summary = "the pack looks like us now. a wly title screen with our own splashes, menu buttons in the server's colours and a heart for an icon."
+added = [
+    "global packs, so the pack's own look is switched on for everyone without touching your resource packs",
+    "fancymenu, for the title screen layout and the window title and icon",
+]
+
+[[release]]
 version = "0.1.14"
 summary = "the stars in the caves are gone for real this time. the fog mod pulled cave fog in so close that sodium stopped drawing the far side of big caves, and the sky showed through the gap. caves now look the way they are."
 removed = [
