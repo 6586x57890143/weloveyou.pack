@@ -182,7 +182,11 @@ SPRITES = RP / "assets" / "minecraft" / "textures" / "gui" / "sprites" / "widget
 
 ASSETS = {
     RP / "pack.png": lambda: icon(64, BG),
-    RP / "assets" / "wly" / "textures" / "gui" / "title" / "wly.png": wordmark,
+    # Vanilla's own title assets, overridden by the resource pack. This used
+    # to go through Vistas, whose only 1.21.1 build crashed the title screen
+    # once FancyMenu stopped covering for it (v0.1.19).
+    RP / "assets" / "minecraft" / "textures" / "gui" / "title" / "minecraft.png": wordmark,
+    RP / "assets" / "minecraft" / "textures" / "gui" / "title" / "edition.png": lambda: Canvas(128, 16),
     SPRITES / "button.png": lambda: button(PANEL, RULE_HI, RULE),
     SPRITES / "button_highlighted.png": lambda: button(RULE, HEART, RULE_HI),
     SPRITES / "button_disabled.png": lambda: button(BG, RULE, BG),
