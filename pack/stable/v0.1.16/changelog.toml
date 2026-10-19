@@ -1,0 +1,55 @@
+# What changed in each release, in words. wly reads the entry whose version
+# matches pack.toml and puts it in the release post in #announcements.
+#
+# Every line here goes straight into Discord, so it follows the voice rules in
+# weloveyou.mc's docs/DISCORD.md: lowercase, warm, no em dashes, no oxford
+# comma. Say what a mod is for, not that it exists. A release with no entry is
+# still announced, just without notes.
+#
+# .packwizignore keeps this file out of index.toml, so it is published beside
+# pack.toml without ever landing in a player's instance.
+#
+# Newest first. `updated` and `removed` say "nothing" when left empty, so only
+# leave them empty when that is true.
+
+[[release]]
+version = "0.1.16"
+summary = "the early game gets its first opinions. stone tools are gone, copper is your first real tier, so go find some. you also mine a little faster. and the map got honest: the surface is yours, but caves, the nether and the end only map what is right around you. no more spotting amethyst through the floor."
+updated = [
+    "journeymap, now on the server too, so it can keep the underground a place you explore",
+    "global packs, now on the server too, so the pack's own rules load into the world",
+]
+
+[[release]]
+version = "0.1.15"
+summary = "the pack looks like us now. a wly title screen with our own splashes, menu buttons in the server's colours and a heart for an icon."
+added = [
+    "global packs, so the pack's own look is switched on for everyone without touching your resource packs",
+    "fancymenu, for the title screen layout and the window title and icon",
+]
+
+[[release]]
+version = "0.1.14"
+summary = "the stars in the caves are gone for real this time. the fog mod pulled cave fog in so close that sodium stopped drawing the far side of big caves, and the sky showed through the gap. caves now look the way they are."
+removed = [
+    "fog, the reason you could see the moon from an ancient city",
+]
+
+[[release]]
+version = "0.1.13"
+summary = "a small one. the fog occlusion default from last time did not fix the sky in caves, so it is gone again. if you turned it off, turn it back on: video settings, sodium, performance, use fog occlusion. the stars come from how far the server sends the world, and we are measuring a fix for that next."
+
+[[release]]
+version = "0.1.12"
+summary = "food, a new way to enchant and better tools. and the sky stays out of the caves now: new installs get sodium's fog occlusion off. already playing and still see stars underground? video settings, sodium, performance, turn off use fog occlusion."
+added = [
+    "farmer's delight refabricated, so cooking is a whole thing now: a stove, a cutting board and proper meals",
+    "more delight, more recipes for that stove",
+    "modest magic, enchanting at an altar with tablets instead of the enchanting table lottery",
+    "jade, look at a block and it tells you what it is and which mod it came from",
+    "copper tools, so copper is good for something before you find iron",
+    "oritech steel tools, a use for all that oritech steel",
+    "better block entities, chests and signs draw faster on your side",
+]
+updated = []
+removed = []

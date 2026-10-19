@@ -1,0 +1,13 @@
+name = "Wayfinder"
+filename = "Wayfinder-Fabric-1.2.7-mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/909sOSOR/versions/Z8p1rjWa/Wayfinder-Fabric-1.2.7-mc1.21.1.jar"
+hash-format = "sha512"
+hash = "f7e0db4fd1d0a0aafc09232d34cbb2afeddb990dac22799a5c074da7687e4c4a3cc8d9af5558fdbda98a535f353762d8b35433c048362e51e1738e6ebaa251f5"
+
+[update]
+[update.modrinth]
+mod-id = "909sOSOR"
+version = "Z8p1rjWa"

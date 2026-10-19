@@ -13,6 +13,14 @@
 # leave them empty when that is true.
 
 [[release]]
+version = "0.1.16"
+summary = "the early game gets its first opinions. stone tools are gone, copper is your first real tier, so go find some. you also mine a little faster. and the map got honest: the surface is yours, but caves, the nether and the end only map what is right around you. no more spotting amethyst through the floor."
+updated = [
+    "journeymap, now on the server too, so it can keep the underground a place you explore",
+    "global packs, now on the server too, so the pack's own rules load into the world",
+]
+
+[[release]]
 version = "0.1.15"
 summary = "the pack looks like us now. a wly title screen with our own splashes, menu buttons in the server's colours and a heart for an icon."
 added = [
