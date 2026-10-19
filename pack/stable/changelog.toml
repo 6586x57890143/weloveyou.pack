@@ -13,6 +13,13 @@
 # leave them empty when that is true.
 
 [[release]]
+version = "0.1.17"
+summary = "a quiet fix with a big effect. one mod named a steel bow that does not exist, and that broke the list of what can be enchanted, tablets included. enchanting should work properly now."
+removed = [
+    "oritech steel tools, the cause. oritech still has its own gear",
+]
+
+[[release]]
 version = "0.1.16"
 summary = "the early game gets its first opinions. stone tools are gone, copper is your first real tier, so go find some. you also mine a little faster. and the map got honest: the surface is yours, but caves, the nether and the end only map what is right around you. no more spotting amethyst through the floor."
 updated = [
