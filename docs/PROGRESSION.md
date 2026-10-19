@@ -24,28 +24,40 @@ Each system earns its place: copper fills stone-to-iron, steel rewards processin
 Magic makes enchanting a choice. Food: farming gives ingredients, cooking gives
 specialisation, automation is optional scale. Not every meal is a factory part.
 
-## The guide: an FTB-style quest book
+## The guide: our own advancement tree
 
-Decided: the guide is a quest book in the FTB Quests mould. Chapters per stage, a quest map,
-item-submission and checkmark tasks, rewards, and descriptions that say why the next mod
-matters. **Which mod is OPEN**, the owner is researching it.
+Decided: no quest mod. The guide is a custom advancement tree written for this pack, in the
+style of Raspberry Flavoured (https://raspberryflavoured.wiki.gg/wiki/Raspberry_Flavoured),
+whose "completely custom set of advancements" guides players through progression and
+mechanics.
 
-The choice has to meet these, so a candidate can be checked against them:
+- a "wly" tab, the heart as its icon, shipped as a datapack
+- one branch per stage, each advancement asking for something real (craft a cutting board,
+  power an Oritech machine) and saying why the next thing matters
+- plain JSON reviewable in git, the same files on 1.21.1 and 26.x, rewards as functions
+- wly already posts advancements to the Discord feed with a map of where they happened, so
+  every milestone is a feed post
+- in-game info for items through EMI, which the pack already ships, the way RF uses it
 
-- a Fabric 1.21.1 build now, and a path to 26.x later
-- installable through packwiz: Modrinth, or CurseForge with third-party distribution allowed
-  (packwiz-installer cannot fetch CurseForge files that block it)
-- quest data as text files that live in this repo and review as diffs, not a binary blob
-- works on a dedicated server
+A quest mod was considered and set aside (FTB Quests works through packwiz from CurseForge,
+tested 2026-10-19, then dropped). A **teams** mod may come later, once multiplayer needs
+shared progress. Not now.
 
-Known so far:
+## End-less (PLANNED, leaning yes)
 
-- **FTB Quests** is CurseForge only. Its addons are on Modrinth for Fabric 1.21.1, so the
-  mod itself exists there.
-- **Odyssey Quests** is on Modrinth, tree-style and maintained.
+Raspberry Flavoured removes the End and almost everything tied to it (strongholds, end
+portals, chorus fruit, shulkers, elytra) and replaces what it gave with gentler things:
+paragliders as "safer, slower Elytras". It also swaps luck for determinism: no enchanting
+table, tablets instead. That fits this pack already, since Modest Magic enchants with
+tablets at an altar.
 
-Advancements stay useful either way: they are the fallback guide, and wly already posts them
-to the Discord feed with a map of where they happened.
+If adopted, the late game ends in stage 5 (infrastructure) instead of a dragon, and these need
+deciding first:
+
+- what replaces elytra travel and shulker storage, which players will miss
+- the live world: has anyone been to the End, and what happens to elytra or shulker boxes
+  already owned
+- how it is removed: a datapack that removes the structures and recipes, or a mod
 
 ## Connecting mods: datapacks, not KubeJS
 
@@ -61,8 +73,8 @@ old. Likely `world/datapacks/` or itzg's `DATAPACKS` setting.
 
 1. **Now, friends only:** finish the look (panorama, FancyMenu layout), fix the leaf piles,
    find a Fog replacement.
-2. **Stages 1 to 3 legible:** pick the quest mod and write the stage 1 to 3 chapters, steel
-   gated on Oritech, item transport.
+2. **Stages 1 to 3 legible:** the advancement tree for stages 1 to 3, steel gated on
+   Oritech, item transport. Decide End-less.
 3. **Stage 4:** Modest Magic and the cooking mods tied in with cross-ingredients.
 4. **Launch readiness:** a domain, port 25565 opened on purpose (the whitelist is really on
    now), the off-box backup target set, view distance checked against real load. These live
@@ -71,6 +83,6 @@ old. Likely `world/datapacks/` or itzg's `DATAPACKS` setting.
 
 ## Avoid
 
-- a linear quest chain that locks content: chapters guide, they do not gate
+- a linear advancement chain that locks content: the tree guides, it does not gate
 - gating vanilla basics: people leave a pack that hides iron
 - building stage 5 economy features before anyone is there to use them
