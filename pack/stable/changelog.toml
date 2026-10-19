@@ -1,0 +1,28 @@
+# What changed in each release, in words. wly reads the entry whose version
+# matches pack.toml and puts it in the release post in #announcements.
+#
+# Every line here goes straight into Discord, so it follows the voice rules in
+# weloveyou.mc's docs/DISCORD.md: lowercase, warm, no em dashes, no oxford
+# comma. Say what a mod is for, not that it exists. A release with no entry is
+# still announced, just without notes.
+#
+# .packwizignore keeps this file out of index.toml, so it is published beside
+# pack.toml without ever landing in a player's instance.
+#
+# Newest first. `updated` and `removed` say "nothing" when left empty, so only
+# leave them empty when that is true.
+
+[[release]]
+version = "0.1.12"
+summary = "food, a new way to enchant and better tools. and the sky stays out of the caves now: new installs get sodium's fog occlusion off. already playing and still see stars underground? video settings, sodium, performance, turn off use fog occlusion."
+added = [
+    "farmer's delight refabricated, so cooking is a whole thing now: a stove, a cutting board and proper meals",
+    "more delight, more recipes for that stove",
+    "modest magic, enchanting at an altar with tablets instead of the enchanting table lottery",
+    "jade, look at a block and it tells you what it is and which mod it came from",
+    "copper tools, so copper is good for something before you find iron",
+    "oritech steel tools, a use for all that oritech steel",
+    "better block entities, chests and signs draw faster on your side",
+]
+updated = []
+removed = []
