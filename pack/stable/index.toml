@@ -255,11 +255,6 @@ hash = "f9f1e1c017e7b902531a68a3f8c9650a18a40a8ab9f0bf44ef5af08b37da8aaf"
 metafile = true
 
 [[files]]
-file = "mods/fancymenu.pw.toml"
-hash = "87c989ac8ec56920741e98bb6f6811ef7533e5c6d50628d2143076542bc3e388"
-metafile = true
-
-[[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
 hash = "f2dd3bcc1e38d91445004d43d84ed98f1e6c4c7284f0b91a80ca01129740044a"
 metafile = true
@@ -345,11 +340,6 @@ hash = "a5f1ed5b3a42776a7cd2d7bb2164d0a83e171fbb30ed25a09b670f314797764a"
 metafile = true
 
 [[files]]
-file = "mods/konkrete.pw.toml"
-hash = "c7179ae7024b7315c6ba5d02b632d99717db1185abab41b73dda556581ff3022"
-metafile = true
-
-[[files]]
 file = "mods/krypton.pw.toml"
 hash = "c4e45594c8d1ab3dacc3b49142f16fb253178dd31d97cc917bf4a4d54f21e081"
 metafile = true
@@ -367,11 +357,6 @@ metafile = true
 [[files]]
 file = "mods/mc2-interactive-foliage.pw.toml"
 hash = "894a33194e3cb75609cdb31af934de26733af7887da7dd5e12e634b6060aac08"
-metafile = true
-
-[[files]]
-file = "mods/melody.pw.toml"
-hash = "2e26dd4ebd07b97d68a9775b84fae707d8824c926e086bb3bcad11687b3fb204"
 metafile = true
 
 [[files]]
@@ -562,6 +547,11 @@ metafile = true
 [[files]]
 file = "mods/wayfinder.pw.toml"
 hash = "97b0e64a7d4b3c008c6aaabbc63175a4904d38629e811707b502dce179e736df"
+metafile = true
+
+[[files]]
+file = "mods/weloveyou-tweaks.pw.toml"
+hash = "0d23cf922914c2d2e9936b9276fe0d543e005d1575cd9b6fd608f895c45e143c"
 metafile = true
 
 [[files]]
