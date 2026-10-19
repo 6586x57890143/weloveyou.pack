@@ -1,0 +1,8 @@
+{
+  "panorama": "wly:default",
+  "forcePanorama": true,
+  "randomPerScreen": false,
+  "lockScreenshotPitch": true,
+  "lockScreenshotYaw": false,
+  "screenshotIndividually": true
+}
