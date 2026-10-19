@@ -13,6 +13,13 @@
 # leave them empty when that is true.
 
 [[release]]
+version = "0.1.14"
+summary = "the stars in the caves are gone for real this time. the fog mod pulled cave fog in so close that sodium stopped drawing the far side of big caves, and the sky showed through the gap. caves now look the way they are."
+removed = [
+    "fog, the reason you could see the moon from an ancient city",
+]
+
+[[release]]
 version = "0.1.13"
 summary = "a small one. the fog occlusion default from last time did not fix the sky in caves, so it is gone again. if you turned it off, turn it back on: video settings, sodium, performance, use fog occlusion. the stars come from how far the server sends the world, and we are measuring a fix for that next."
 
