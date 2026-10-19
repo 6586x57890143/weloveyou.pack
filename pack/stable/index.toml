@@ -41,6 +41,11 @@ hash = "dd56ff2bcc4253d1d70c08333632743fb56cdc4cf5518dc6afc024164633145d"
 metafile = true
 
 [[files]]
+file = "mods/better-block-entities.pw.toml"
+hash = "82b91651e37e154e82eeedee46044e0d95affd761343f6cca07f3ba3697ef806"
+metafile = true
+
+[[files]]
 file = "mods/better-clouds.pw.toml"
 hash = "44a3cd1e2b1ac94bbd4a5450b117f701369b300061b2d9d11172172f9a531f85"
 metafile = true
@@ -96,6 +101,11 @@ hash = "4f97764f3cb4c74f84afbe32cf8a1d2cefecda129c0f1441906562dcb8f2b8cb"
 metafile = true
 
 [[files]]
+file = "mods/copper_tools.pw.toml"
+hash = "3303a114f72828e85a3dc73b25cf792061787efefae12afd255b88e051e364e3"
+metafile = true
+
+[[files]]
 file = "mods/creativecore.pw.toml"
 hash = "60f5e02ed6944a342635a54ef657c48a83779cecdf716f1680996ad3c32a74d0"
 metafile = true
@@ -138,6 +148,11 @@ metafile = true
 [[files]]
 file = "mods/fallingtree.pw.toml"
 hash = "f9f1e1c017e7b902531a68a3f8c9650a18a40a8ab9f0bf44ef5af08b37da8aaf"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight-refabricated.pw.toml"
+hash = "f2dd3bcc1e38d91445004d43d84ed98f1e6c4c7284f0b91a80ca01129740044a"
 metafile = true
 
 [[files]]
@@ -211,6 +226,11 @@ hash = "6ee94689dd67f0210e07feafac8140e8968bcbcd67defcfbdcd677cf78943900"
 metafile = true
 
 [[files]]
+file = "mods/jade.pw.toml"
+hash = "fd56a0cff0fa0172c35309f52e7bf76731abde661b03977bc8380bba687cbe98"
+metafile = true
+
+[[files]]
 file = "mods/journeymap.pw.toml"
 hash = "de03099c26c551cb7e9b6bb1c4e2f32cb4cb1243cbe315bc3d6b17a3e9dfef8b"
 metafile = true
@@ -251,6 +271,11 @@ hash = "b9651d06e56ad51c1cdcf4b03b6a34328b7dc941f263ff92b189ee26a47cc224"
 metafile = true
 
 [[files]]
+file = "mods/modest-magic.pw.toml"
+hash = "9b56af56d15177d70ac260c00fa118efa2038d32b99f1e32e17ad29a530b7b27"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "4a33f888af603e0859359f44b068854e4148d4fba35ee0818bb977171236a805"
 metafile = true
@@ -258,6 +283,11 @@ metafile = true
 [[files]]
 file = "mods/moonlight.pw.toml"
 hash = "4f7d256a29e93b1620275b39f340d0819de92b744f35b0e53a3dbeb587b9d9bf"
+metafile = true
+
+[[files]]
+file = "mods/more-delight.pw.toml"
+hash = "c3e74ba92df17c5fbdb21c4d2418e1296dc579049f060bd0fb5e8604bf9556ac"
 metafile = true
 
 [[files]]
@@ -288,6 +318,11 @@ metafile = true
 [[files]]
 file = "mods/oracle-index.pw.toml"
 hash = "6a5e5bb3465bee02f9df8751b6140e4228c7b1f91dd5485033d6a142142fe494"
+metafile = true
+
+[[files]]
+file = "mods/oritech-steel-tools.pw.toml"
+hash = "ba3d9cb130a47060c345a4145c0115b6770dff964c23896055100f418bfc2471"
 metafile = true
 
 [[files]]
