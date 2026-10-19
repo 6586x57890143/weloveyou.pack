@@ -4,5 +4,5 @@
   "randomPerScreen": false,
   "lockScreenshotPitch": true,
   "lockScreenshotYaw": false,
-  "screenshotIndividually": false
+  "screenshotIndividually": true
 }

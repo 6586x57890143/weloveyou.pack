@@ -105,15 +105,22 @@ class Canvas:
                 if ch in mark:
                     self.rect(x + col * scale, y + r * scale, scale, scale, colour)
 
+    def header(self):
+        return struct.pack(">IIBBBBB", self.w, self.h, 8, 6, 0, 0, 0)
+
+    def raw(self):
+        """Scanlines as a PNG stores them before compression: filter 0, RGBA."""
+        return b"".join(b"\x00" + bytes(v for p in row for v in p) for row in self.px)
+
     def png(self):
-        raw = b"".join(b"\x00" + bytes(v for p in row for v in p) for row in self.px)
+        raw = self.raw()
 
         def chunk(kind, data):
             body = kind + data
             return struct.pack(">I", len(data)) + body + struct.pack(">I", zlib.crc32(body))
 
         return (b"\x89PNG\r\n\x1a\n"
-                + chunk(b"IHDR", struct.pack(">IIBBBBB", self.w, self.h, 8, 6, 0, 0, 0))
+                + chunk(b"IHDR", self.header())
                 + chunk(b"IDAT", zlib.compress(raw, 9))
                 + chunk(b"IEND", b""))
 
@@ -190,17 +197,40 @@ TEXT = {SPRITES / f"{n}.png.mcmeta": NINE_SLICE
         for n in ("button", "button_highlighted", "button_disabled")}
 
 
+def decoded(data):
+    """(header, scanlines) of a PNG this script wrote, or None.
+
+    --check compares these rather than file bytes: the same pixels compress to
+    different bytes under a different zlib, and CI's Python bundles another one.
+    """
+    if not data.startswith(b"\x89PNG\r\n\x1a\n"):
+        return None
+    pos, header, idat = 8, None, b""
+    while pos + 8 <= len(data):
+        (length,) = struct.unpack(">I", data[pos:pos + 4])
+        kind, body = data[pos + 4:pos + 8], data[pos + 8:pos + 8 + length]
+        if kind == b"IHDR":
+            header = body
+        elif kind == b"IDAT":
+            idat += body
+        pos += 12 + length
+    try:
+        return header, zlib.decompress(idat)
+    except zlib.error:
+        return None
+
+
 def main():
     check = "--check" in sys.argv
     stale = []
     for path, draw in ASSETS.items():
-        data = draw().png()
+        canvas = draw()
         if check:
-            if not path.exists() or path.read_bytes() != data:
+            if not path.exists() or decoded(path.read_bytes()) != (canvas.header(), canvas.raw()):
                 stale.append(path)
             continue
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_bytes(data)
+        path.write_bytes(canvas.png())
     for path, text in TEXT.items():
         if check:
             if not path.exists() or path.read_text(encoding="utf-8") != text:

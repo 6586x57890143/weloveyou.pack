@@ -10,7 +10,7 @@ hash = "f858f208409397ec52849791b35b1ff42f79370dea9211e0f0ee0c09907a4f8c"
 
 [[files]]
 file = "config/vistas.json"
-hash = "cc55dcbb53a1fa08efa6c4f2b8fec32f66ef26994f0cb715a66ee8eb8565c591"
+hash = "a86beba30e39e428a3a796e68c1d1eab608cd1ccedc7c9aeb5413c741f788c61"
 
 [[files]]
 file = "global_packs/required_resources/wly/assets/minecraft/textures/gui/sprites/widget/button.png"
