@@ -15,7 +15,7 @@ skips; it does not dictate one way to play.
 | Stage | What it is | In the pack today | Note |
 |---|---|---|---|
 | 1 Fieldcraft | copper tools (no stone), exploring, gathering, farming, first settlements | Copper Tools, Farmer's Delight, Terralith | already playable |
-| 2 Metallurgy | iron, steel, deliberate processing | Oritech, Oritech Steel Tools | steel should NEED Oritech processing, or stage 3 has no hook |
+| 2 Metallurgy | iron, steel, deliberate processing | Oritech (Oritech Steel Tools removed in v0.1.17: it broke the enchanting tags) | steel should NEED Oritech processing, or stage 3 has no hook |
 | 3 Industrialization | power, machines, logistics, automation | Oritech power and machines | gap: no item transport mod yet |
 | 4 Specialised mastery | enchanting by tablet, no levels, rare ingredients, advanced gear | Modest Magic, More Delight | magic and tech trade ingredients; neither replaces the other |
 | 5 Infrastructure | shared factories, transport, community projects | nothing | needs a population. Designed after launch, not before |
