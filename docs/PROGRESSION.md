@@ -24,22 +24,28 @@ Each system earns its place: copper fills stone-to-iron, steel rewards processin
 Magic makes enchanting a choice. Food: farming gives ingredients, cooking gives
 specialisation, automation is optional scale. Not every meal is a factory part.
 
-## The guide: advancements first
+## The guide: an FTB-style quest book
 
-v1 is a custom advancement tab, "wly", with the heart as its icon, shipped as a datapack. One
-branch per stage. Each advancement asks for something real (craft a cutting board, power an
-Oritech machine) and its description says why the next mod matters.
+Decided: the guide is a quest book in the FTB Quests mould. Chapters per stage, a quest map,
+item-submission and checkmark tasks, rewards, and descriptions that say why the next mod
+matters. **Which mod is OPEN**, the owner is researching it.
 
-Why not a quest mod yet:
+The choice has to meet these, so a candidate can be checked against them:
 
-- no mod to keep ported, plain JSON reviewable in git, the same files on 1.21.1 and 26.x
-- rewards can be a function
-- wly already posts advancements to the Discord feed with a map of where they happened, so
-  every milestone is a feed post for free
+- a Fabric 1.21.1 build now, and a path to 26.x later
+- installable through packwiz: Modrinth, or CurseForge with third-party distribution allowed
+  (packwiz-installer cannot fetch CurseForge files that block it)
+- quest data as text files that live in this repo and review as diffs, not a binary blob
+- works on a dedicated server
 
-Move to a quest mod only when advancements fall short: branching choices, item submission,
-a real quest book. Candidate: **Odyssey Quests** (Modrinth, tree-style, maintained).
-**FTB Quests is not on Modrinth**, and this pack installs from Modrinth only.
+Known so far:
+
+- **FTB Quests** is CurseForge only. Its addons are on Modrinth for Fabric 1.21.1, so the
+  mod itself exists there.
+- **Odyssey Quests** is on Modrinth, tree-style and maintained.
+
+Advancements stay useful either way: they are the fallback guide, and wly already posts them
+to the Discord feed with a map of where they happened.
 
 ## Connecting mods: datapacks, not KubeJS
 
@@ -55,7 +61,8 @@ old. Likely `world/datapacks/` or itzg's `DATAPACKS` setting.
 
 1. **Now, friends only:** finish the look (panorama, FancyMenu layout), fix the leaf piles,
    find a Fog replacement.
-2. **Stages 1 to 3 legible:** the advancement tab, steel gated on Oritech, item transport.
+2. **Stages 1 to 3 legible:** pick the quest mod and write the stage 1 to 3 chapters, steel
+   gated on Oritech, item transport.
 3. **Stage 4:** Modest Magic and the cooking mods tied in with cross-ingredients.
 4. **Launch readiness:** a domain, port 25565 opened on purpose (the whitelist is really on
    now), the off-box backup target set, view distance checked against real load. These live
@@ -64,6 +71,6 @@ old. Likely `world/datapacks/` or itzg's `DATAPACKS` setting.
 
 ## Avoid
 
-- a linear quest chain that locks content
+- a linear quest chain that locks content: chapters guide, they do not gate
 - gating vanilla basics: people leave a pack that hides iron
 - building stage 5 economy features before anyone is there to use them
