@@ -46,6 +46,16 @@ we choose. To make that the only way:
 - verify in game first that Modest Magic itself charges no levels, since the description is
   the only evidence so far
 
+**Tools last longer and work faster.** Raspberry Flavoured's balance here, which was good:
+higher tool durability and quicker harvesting, so the longer early game does not turn into a
+chore. Numbers are to be set by playing, starting near RF's. Likely routes, to verify:
+
+- durability: an item's maximum damage is a default component that a 1.21.1 datapack cannot
+  change, so this goes in the small Kotlin mod, through Fabric API's
+  DefaultItemComponentEvents, one table of item to durability
+- harvesting: the player.block_break_speed attribute (added in 1.21), raised for everyone by a
+  datapack function or by the same mod
+
 ## The guide: our own advancement tree
 
 Decided: no quest mod. The guide is a custom advancement tree written for this pack, in the
