@@ -1,6 +1,62 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/fancymenu/assets/wly/icon_16.png"
+hash = "bf21424d44cb8c346388bf6ef928474cbf65adb59e55dda147c7acb971c837d0"
+
+[[files]]
+file = "config/fancymenu/assets/wly/icon_32.png"
+hash = "f858f208409397ec52849791b35b1ff42f79370dea9211e0f0ee0c09907a4f8c"
+
+[[files]]
+file = "config/vistas.json"
+hash = "cc55dcbb53a1fa08efa6c4f2b8fec32f66ef26994f0cb715a66ee8eb8565c591"
+
+[[files]]
+file = "global_packs/required_resources/wly/assets/minecraft/textures/gui/sprites/widget/button.png"
+hash = "cc622dbf87171faee139742a876cde5f4d1258f7f8bbbc969553cddae4918b58"
+
+[[files]]
+file = "global_packs/required_resources/wly/assets/minecraft/textures/gui/sprites/widget/button.png.mcmeta"
+hash = "53b3eefb4b73b43cce04b834dd7b0b7cbcf912efdd2f3e2d1a2ec2eef385c68d"
+
+[[files]]
+file = "global_packs/required_resources/wly/assets/minecraft/textures/gui/sprites/widget/button_disabled.png"
+hash = "e5865962508f1ee2c3d24a3378ba72ece2c68f2e9f65ae9292875c1a3407dfc0"
+
+[[files]]
+file = "global_packs/required_resources/wly/assets/minecraft/textures/gui/sprites/widget/button_disabled.png.mcmeta"
+hash = "53b3eefb4b73b43cce04b834dd7b0b7cbcf912efdd2f3e2d1a2ec2eef385c68d"
+
+[[files]]
+file = "global_packs/required_resources/wly/assets/minecraft/textures/gui/sprites/widget/button_highlighted.png"
+hash = "dd0586824b36f61ea5aa4d7dde7aab9d242b07d93f1f73a6879c4a486f0f3840"
+
+[[files]]
+file = "global_packs/required_resources/wly/assets/minecraft/textures/gui/sprites/widget/button_highlighted.png.mcmeta"
+hash = "53b3eefb4b73b43cce04b834dd7b0b7cbcf912efdd2f3e2d1a2ec2eef385c68d"
+
+[[files]]
+file = "global_packs/required_resources/wly/assets/wly/panoramas.json"
+hash = "54f3ef8c5d447d4cf2929dfc11ff413bd014895efb9981ba7578cf5ceb53c9ab"
+
+[[files]]
+file = "global_packs/required_resources/wly/assets/wly/texts/splashes.txt"
+hash = "7b9a212f883bb7f68b0b66438f393ce4890c6f49e355b0f53dcd7b9e8ee8a30c"
+
+[[files]]
+file = "global_packs/required_resources/wly/assets/wly/textures/gui/title/wly.png"
+hash = "18aa46a534cd18afeb993eabd68f171ba7301a18aceb73f7ac9d5236112727c4"
+
+[[files]]
+file = "global_packs/required_resources/wly/pack.mcmeta"
+hash = "9d5ea9008d4503475aeb3bc61e3d99a7590eb566016a7003e32c16b1d34a4465"
+
+[[files]]
+file = "global_packs/required_resources/wly/pack.png"
+hash = "da756020da6d6c93466867c7bbed279a21b631baf335ce307e5c438e9137e674"
+
+[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "015053563a1d8ef3334560cd27f8e832935a26a96f151f059f814092b8db50a2"
 metafile = true
@@ -151,6 +207,11 @@ hash = "f9f1e1c017e7b902531a68a3f8c9650a18a40a8ab9f0bf44ef5af08b37da8aaf"
 metafile = true
 
 [[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "87c989ac8ec56920741e98bb6f6811ef7533e5c6d50628d2143076542bc3e388"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
 hash = "f2dd3bcc1e38d91445004d43d84ed98f1e6c4c7284f0b91a80ca01129740044a"
 metafile = true
@@ -188,6 +249,11 @@ metafile = true
 [[files]]
 file = "mods/glitchcore.pw.toml"
 hash = "e7a737720192a1ec35fbc8d8061f7373fd0a900806882d43e30511967e9a06d0"
+metafile = true
+
+[[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "733f8959368ac02bc9703b85bf6e615daa85aeb9254aaa07eba4a0692922d794"
 metafile = true
 
 [[files]]
@@ -231,6 +297,11 @@ hash = "de03099c26c551cb7e9b6bb1c4e2f32cb4cb1243cbe315bc3d6b17a3e9dfef8b"
 metafile = true
 
 [[files]]
+file = "mods/konkrete.pw.toml"
+hash = "c7179ae7024b7315c6ba5d02b632d99717db1185abab41b73dda556581ff3022"
+metafile = true
+
+[[files]]
 file = "mods/krypton.pw.toml"
 hash = "c4e45594c8d1ab3dacc3b49142f16fb253178dd31d97cc917bf4a4d54f21e081"
 metafile = true
@@ -248,6 +319,11 @@ metafile = true
 [[files]]
 file = "mods/mc2-interactive-foliage.pw.toml"
 hash = "894a33194e3cb75609cdb31af934de26733af7887da7dd5e12e634b6060aac08"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "2e26dd4ebd07b97d68a9775b84fae707d8824c926e086bb3bcad11687b3fb204"
 metafile = true
 
 [[files]]

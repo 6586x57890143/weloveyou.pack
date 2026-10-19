@@ -54,6 +54,9 @@ jobs:
         with:
           python-version: "3.13"
       - run: python scripts/deps-check.py
+      # The pack's art is generated. A hand-edited PNG, or a generator change
+      # without its output, fails here instead of drifting.
+      - run: python scripts/brand-assets.py --check
 
   # What mods DO. Spark's async-profiler segfaulted the JVM with a perfectly
   # valid dependency graph; only starting a server finds that.
