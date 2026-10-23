@@ -1,0 +1,15 @@
+name = "weloveyou.tweaks"
+filename = "weloveyou-tweaks-1.21.1-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/6586x57890143/weloveyou.tweaks/releases/download/v0.1.0/weloveyou-tweaks-1.21.1-0.1.0.jar"
+hash-format = "sha256"
+hash = "6d33db7b47b7487350e1b4b95b4b34e084cec4f04e07caf3d61b0b7ac184b665"
+
+[update]
+[update.github]
+branch = "main"
+regex = ".*-1\\.21\\.1-.*\\.jar$"
+slug = "6586x57890143/weloveyou.tweaks"
+tag = "v0.1.0"
