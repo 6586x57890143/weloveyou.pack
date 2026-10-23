@@ -33,6 +33,10 @@ file = "global_packs/required_data/wly/data/minecraft/recipe/stone_sword.json"
 hash = "fc334084fdf5d7d176477bde12ff2fca6e86808e3e517f5ebe89162fd9ffe219"
 
 [[files]]
+file = "global_packs/required_data/wly/data/minecraft/tags/block/needs_stone_tool.json"
+hash = "7771c598ce28beb10a4a1f342ddd18841c00bdffd0acfd115de254f0eaa2fd30"
+
+[[files]]
 file = "global_packs/required_data/wly/data/wly/advancement/internal/harvest_speed_v1.json"
 hash = "906875945da0aa218849386905918697eca95cfd2664de90fd60ac56ae671309"
 

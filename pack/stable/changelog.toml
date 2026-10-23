@@ -13,6 +13,10 @@
 # leave them empty when that is true.
 
 [[release]]
+version = "0.1.20"
+summary = "the fix the copper change needed. a wooden pickaxe now mines copper ore, so the road from wood to copper actually exists. iron still wants copper first."
+
+[[release]]
 version = "0.1.19"
 summary = "sorry, 0.1.18 crashed on the title screen. this fixes it. the wly title screen stays, it just does not need a mod anymore."
 removed = [
